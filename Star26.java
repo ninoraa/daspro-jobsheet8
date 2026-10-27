@@ -7,7 +7,7 @@ public class Star26 {
         System.out.print("Masukan nilai n: ");
         int n = sc.nextInt();
 
-        for (int i = 1; i <= n; i++) {
+        for (int i = 2; i < n; i += 2) {
         System.out.print("*");
         }
         System.out.println();
